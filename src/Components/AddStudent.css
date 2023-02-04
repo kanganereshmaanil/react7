@@ -1,0 +1,43 @@
+input{
+    margin-top: 30px;
+   margin-right: 100px;
+   margin-bottom: 30px;
+   margin-left: 100px;
+  height: 40px;
+   width: 350px;
+   text-align: center;
+   border-radius: 20px;
+   font-size: 20px;
+} 
+.button-submit{
+    background-color: rgb(109, 211, 109);
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    float: right;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button-cancel{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    float: right;
+    margin-right: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#formDiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
